@@ -1,0 +1,79 @@
+.foto-perfil {
+    width: 40%;
+}
+
+.objetivoOnu {
+    width: 200px;
+}
+
+.group-onu {
+    border: none;
+    background: none;
+}
+
+.card-devs {
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 25px;
+    background: none;
+}
+
+.card-img-top {
+    border: 3px;
+    border-radius: 20px 20px 0 0;
+}
+
+.redes-sociais p{
+    font-size: 14pt;
+}
+
+.redes-sociais a:hover{
+    text-decoration: none;
+}
+
+.redes-sociais github, linkedin, a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.github:hover {
+    color: rgba(0, 0, 0, 0.7);
+    transform:scale(1.1);
+}
+
+.linkedin:hover {
+    color: #0e76a8;
+    transform:scale(1.1);
+}
+
+.text-size {
+    font-size: 15pt;
+}
+
+
+@media only screen and (max-width:414px){
+    .objetivoOnu {
+        width: 80%;
+    }
+    .card-group {
+        display: flex;
+        align-items: center;
+    }
+    .text {
+        text-align: center;
+    }
+    .redes-sociais {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .card-devs {
+        width: 315px;
+    }
+    .teste{
+        text-align:center
+    }
+    .bg-image{
+        margin: 0%;
+    }
+}
